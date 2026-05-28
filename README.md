@@ -1,12 +1,9 @@
 # northshelf-sales-analytics
-🛒 E-Commerce Sales Analytics Pipeline
-
+# 🛒 E-Commerce Sales Analytics Pipeline
 End-to-end data analytics project using MySQL, Python (pandas), and Power BI to analyze retail transactions and surface business insights through an interactive dashboard.
+## 📊 Dashboard Preview
 
-📊 Dashboard Preview
-
-🗂 Table of Contents
-
+## 🗂 Table of Contents
 Project Overview
 Business Questions
 Tech Stack
@@ -17,9 +14,9 @@ Key Findings
 Dashboard Pages
 Skills Demonstrated
 
-
 Project Overview
-This project simulates a real-world retail analytics workflow for a fictional e-commerce company, NorthShelf Retail. Raw transactional data was generated, stored in a relational MySQL database, cleaned and transformed in Python, and visualized in a 3-page Power BI dashboard.
+This project simulates a real-world retail analytics workflow for a fictional e-commerce company, NorthShelf Retail. 
+Raw transactional data was generated, stored in a relational MySQL database, cleaned and transformed in Python, and visualized in a 3-page Power BI dashboard.
 The pipeline covers every stage of the analytics process:
 Raw CSV Data → MySQL Database → Python Cleaning → Power BI Dashboard
 
@@ -27,7 +24,9 @@ Business Questions
 The dashboard was built to answer three core questions:
 
 Which product categories drive the most revenue, and how has that changed month-over-month?
+
 Do higher loyalty tiers actually spend more — and by how much?
+
 Which regions are underperforming relative to their order volume?
 
 Tech Stack
