@@ -1,4 +1,4 @@
-# northshelf-sales-analytics
+# northshelf-sales-analytics 
 # 🛒 E-Commerce Sales Analytics Pipeline
 End-to-end data analytics project using MySQL, Python (pandas), and Power BI to analyze retail transactions and surface business insights through an interactive dashboard.
 ## 📊 Dashboard Preview
@@ -14,13 +14,13 @@ Key Findings
 Dashboard Pages
 Skills Demonstrated
 
-Project Overview
+## Project Overview
 This project simulates a real-world retail analytics workflow for a fictional e-commerce company, NorthShelf Retail. 
 Raw transactional data was generated, stored in a relational MySQL database, cleaned and transformed in Python, and visualized in a 3-page Power BI dashboard.
 The pipeline covers every stage of the analytics process:
 Raw CSV Data → MySQL Database → Python Cleaning → Power BI Dashboard
 
-Business Questions
+## Business Questions
 The dashboard was built to answer three core questions:
 
 Which product categories drive the most revenue, and how has that changed month-over-month?
@@ -29,10 +29,10 @@ Do higher loyalty tiers actually spend more — and by how much?
 
 Which regions are underperforming relative to their order volume?
 
-Tech Stack
+## Tech Stack
 ToolPurposeMySQLRelational database, schema design, JOINs, VIEWsPython — pandasData cleaning, null handling, outlier capping, feature engineeringPower BIInteractive dashboard, DAX measures, slicers, drill-throughFaker + NumPySynthetic dataset generation
 
-Project Structure
+## Project Structure
 
 northshelf-sales-analytics/
 │
@@ -64,13 +64,13 @@ northshelf-sales-analytics/
 └── README.md
 
 
-Dataset
+## Dataset
 Synthetic dataset generated using Python (faker, numpy, pandas).
 TableRowsDescriptioncustomers1,000Customer profiles, regions, loyalty tiersproducts100Product catalog with prices and supplier costsorders5,000Order headers with dates, status, and regionorder_items~12,000Line items linking orders to products
 Data was intentionally generated with null values, duplicate rows, and price outliers to simulate real-world messiness and demonstrate cleaning skills.
 
 
-How to Run
+## How to Run
 1. Generate the data
 pip install faker pandas numpy
 python python/generate_data.py
@@ -87,7 +87,7 @@ This creates 3 VIEWs used by Power BI
 
 4. Clean the data in Python
 pip install mysql-connector-python sqlalchemy
-# Update DB_PASSWORD in clean_data.py
+Update DB_PASSWORD in clean_data.py
 python python/clean_data.py
 Cleaned CSVs are saved to data/cleaned/.
 5. Open the Power BI dashboard
@@ -96,14 +96,14 @@ Open NorthShelf_Dashboard.pbix in Power BI Desktop
 If prompted, update the data source path to your local data/cleaned/ folder
 
 
-Key Findings
+## Key Findings
 
 Electronics and Home & Garden accounted for the majority of revenue despite representing less than a third of total SKUs
 Platinum-tier customers showed higher average order values than Standard-tier customers, validating the loyalty program structure
 The Southeast region had high order volume but below-average revenue per order, suggesting potential discounting or returns issues worth investigating
 Monthly revenue showed consistent growth with a strong seasonal spike in December
 
-Dashboard Pages
+## Dashboard Pages
 Page 1 — Executive Summary
 KPI cards (Total Revenue, Average Order Value), revenue by category bar chart, monthly revenue trend line chart
 Page 2 — Customer Analysis
@@ -117,7 +117,7 @@ Total Revenue =
 SUMX(
     order_items_clean,
     order_items_clean[quantity] * order_items_clean[unit_price]
-)
+) 
 
 Average Order Value =
 DIVIDE(
@@ -126,7 +126,7 @@ DIVIDE(
     0
 )
 
-Skills Demonstrated
+## Skills Demonstrated
 
 SQL — schema design, multi-table JOINs, GROUP BY aggregations, CTEs, CREATE VIEW
 Python — data cleaning with pandas (drop_duplicates, fillna, dropna, clip), connecting to MySQL via SQLAlchemy, feature engineering
