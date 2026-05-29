@@ -4,15 +4,16 @@
 ### 📊 Dashboard Preview
 
 ### 🗂 Table of Contents
-- <ins>Project Overview</ins> 
-- <ins>Business Questions</ins>
-- <ins>Tech Stack</ins>
-- <ins>Project Structure</ins>
-- <ins>Dataset</ins>
-- <ins>How to Run</ins>
-- <ins>Key Findings</ins>
-- <ins>Dashboard Pages</ins>
-- <ins>Skills Demonstrated</ins>
+- [Project Overview](###ProjectOverview)
+- [Business Questions](###BusinessQuestions)
+- [Tech Stack](###TechStack)
+- [Project Structure](###ProjectStructure)
+- [Data Set](###DataSet)
+- [How to Run](###HowtoRun)
+- [Key Findings](###KeyFindings)
+- [Dashboard Pages](###DashboardPages)
+- [Skills Demonstrated](###SkillsDemonstrated)
+
 
 ### Project Overview
 This project simulates a real-world retail analytics workflow for a fictional e-commerce company, NorthShelf Retail. 
@@ -29,7 +30,7 @@ The dashboard was built to answer three core questions:
 3. Which regions are underperforming relative to their order volume?
 
 ### Tech Stack
-ToolPurposeMySQLRelational database, schema design, JOINs, VIEWsPython — pandasData cleaning, null handling, outlier capping, feature engineeringPower BIInteractive dashboard, DAX measures, slicers, drill-throughFaker + NumPySynthetic dataset generation
+Tool Purpose MySQLRelational database, schema design, JOINs, VIEWsPython — pandasData cleaning, null handling, outlier capping, feature engineeringPower BIInteractive dashboard, DAX measures, slicers, drill-throughFaker + NumPySynthetic dataset generation
 
 ### Project Structure
 
