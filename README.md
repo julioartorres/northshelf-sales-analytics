@@ -30,7 +30,13 @@ The dashboard was built to answer three core questions:
 3. Which regions are underperforming relative to their order volume?
 
 ### Tech Stack
-Tool Purpose MySQLRelational database, schema design, JOINs, VIEWsPython — pandasData cleaning, null handling, outlier capping, feature engineeringPower BIInteractive dashboard, DAX measures, slicers, drill-throughFaker + NumPySynthetic dataset generation
+| Tool | Purpose | 
+| ---- | ------- |
+| MySQL | MySQLRelational database, schema design, JOINs, VIEWs |
+| Python-Pandas | Data cleaning, null handling, outlier capping, feature engineering |
+| PowerBI | Interactive dashboard, DAX measures, slicers, drill-through |
+| Faker + NumPy | Synthetic dataset generation |
+
 
 ### Project Structure
 
