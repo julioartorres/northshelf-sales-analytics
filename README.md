@@ -5,14 +5,14 @@
 
 ### 🗂 Table of Contents
 - [Project Overview](###Project-Overview)
-- [Business Questions](###BusinessQuestions)
-- [Tech Stack](###TechStack)
-- [Project Structure](###ProjectStructure)
-- [Data Set](###DataSet)
-- [How to Run](###HowtoRun)
-- [Key Findings](###KeyFindings)
-- [Dashboard Pages](###DashboardPages)
-- [Skills Demonstrated](###SkillsDemonstrated)
+- [Business Questions](###Business-Questions)
+- [Tech Stack](###Tech-Stack)
+- [Project Structure](###Project-Structure)
+- [Data Set](###Data-Set)
+- [How to Run](###How-to-Run)
+- [Key Findings](###Key-Findings)
+- [Dashboard Pages](###Dashboard-Pages)
+- [Skills Demonstrated](###Skills-Demonstrated)
 
 
 ### Project Overview
