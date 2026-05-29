@@ -71,8 +71,15 @@ northshelf-sales-analytics/
 
 
 ### Dataset
-Synthetic dataset generated using Python (faker, numpy, pandas).
-TableRowsDescriptioncustomers1,000Customer profiles, regions, loyalty tiersproducts100Product catalog with prices and supplier costsorders5,000Order headers with dates, status, and regionorder_items~12,000Line items linking orders to products
+Synthetic dataset generated using Python (`faker`, `numpy`, `pandas`).
+| Table | Rows | Description |
+| ----- | ---- | ----------- |
+| `customers` | 1,000 | Customer profiles, regions, loyalty tiers |
+| `products` | 100 | Product catalog with prices and supplier costs |
+| `orders` | 5,000 | Order headers with dates, status, and region |
+| `order_items` | ~12,000 | Line items linking orders to products |
+
+
 Data was intentionally generated with null values, duplicate rows, and price outliers to simulate real-world messiness and demonstrate cleaning skills.
 
 
@@ -82,19 +89,19 @@ pip install faker pandas numpy
 python python/generate_data.py
 2. Set up MySQL
 - Open MySQL Workbench
-- Run sql/create_tables.sql to create the database and tables
-- Import the 4 CSVs from data/raw/ using the Table Data Import Wizard
+- Run `sql/create_tables.sql` to create the database and tables
+- Import the 4 CSVs from `data/raw/` using the Table Data Import Wizard
 3. Run SQL analysis
-- Run sql/analysis_queries.sql in MySQL Workbench
+- Run `sql/analysis_queries.sql` in MySQL Workbench
 - This creates 3 VIEWs used by Power BI
 4. Clean the data in Python
 pip install mysql-connector-python sqlalchemy
 Update DB_PASSWORD in clean_data.py
 python python/clean_data.py
-Cleaned CSVs are saved to data/cleaned/.
+Cleaned CSVs are saved to `data/cleaned/`.
 5. Open the Power BI dashboard
-- Open NorthShelf_Dashboard.pbix in Power BI Desktop
-- If prompted, update the data source path to your local data/cleaned/ folder
+- Open `NorthShelf_Dashboard.pbix` in Power BI Desktop
+- If prompted, update the data source path to your local `data/cleaned/` folder
 
 
 ### Key Findings
@@ -129,9 +136,9 @@ DIVIDE(
 
 ### Skills Demonstrated
 
-- SQL — schema design, multi-table JOINs, GROUP BY aggregations, CTEs, CREATE VIEW
-- Python — data cleaning with pandas (drop_duplicates, fillna, dropna, clip), connecting to MySQL via SQLAlchemy, feature engineering
-- Power BI — data modeling, table relationships, DAX measures, interactive slicers, drill-through pages, conditional formatting
+- *SQL* — schema design, multi-table JOINs, GROUP BY aggregations, CTEs, CREATE VIEW
+- *Python* — data cleaning with pandas (drop_duplicates, fillna, dropna, clip), connecting to MySQL via SQLAlchemy, feature engineering
+- *Power BI* — data modeling, table relationships, DAX measures, interactive slicers, drill-through pages, conditional formatting
 
 Author
 Julio Torres
