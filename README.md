@@ -4,7 +4,7 @@
 ### 📊 Dashboard Preview
 
 ### 🗂 Table of Contents
-- [Project Overview](###ProjectOverview)
+- [Project Overview](###Project-Overview)
 - [Business Questions](###BusinessQuestions)
 - [Tech Stack](###TechStack)
 - [Project Structure](###ProjectStructure)
