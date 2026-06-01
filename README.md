@@ -43,30 +43,30 @@ The dashboard was built to answer three core questions:
 northshelf-sales-analytics/
 │
 ├── data/
-│   ├── raw/                    # Original generated CSVs
+│   ├── raw/                    
 │   │   ├── customers.csv
 │   │   ├── products.csv
 │   │   ├── orders.csv
 │   │   └── order_items.csv
-│   └── cleaned/                # Output of clean_data.py
+│   └── cleaned/                
 │       ├── customers_clean.csv
 │       ├── products_clean.csv
 │       ├── orders_clean.csv
 │       └── order_items_clean.csv
 │
 ├── sql/
-│   ├── create_tables.sql       # Schema: CREATE TABLE statements
-│   └── analysis_queries.sql    # 3 key queries + CREATE VIEW statements
+│   ├── create_tables.sql       
+│   └── analysis_queries.sql    
 │
 ├── python/
-│   ├── generate_data.py        # Generates synthetic dataset
-│   ├── connect_mysql.py        # Connects pandas to MySQL
-│   └── clean_data.py           # Full cleaning pipeline
+│   ├── generate_data.py        
+│   ├── connect_mysql.py        
+│   └── clean_data.py           
 │
 ├── assets/
-│   └── dashboard_preview.png   # Screenshot of Power BI dashboard
+│   └── dashboard_preview.png   
 │
-├── NorthShelf_Dashboard.pbix   # Power BI dashboard file
+├── NorthShelf_Dashboard.pbix   
 └── README.md
 
 
