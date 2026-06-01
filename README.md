@@ -43,31 +43,33 @@ The dashboard was built to answer three core questions:
 northshelf-sales-analytics/
 │
 ├── data/
-│   ├── raw/                    
+│   ├── raw/
 │   │   ├── customers.csv
 │   │   ├── products.csv
 │   │   ├── orders.csv
 │   │   └── order_items.csv
-│   └── cleaned/                
+│   │
+│   └── cleaned/
 │       ├── customers_clean.csv
 │       ├── products_clean.csv
 │       ├── orders_clean.csv
 │       └── order_items_clean.csv
 │
 ├── sql/
-│   ├── create_tables.sql       
-│   └── analysis_queries.sql    
+│   ├── create_tables.sql
+│   └── analysis_queries.sql
 │
 ├── python/
-│   ├── generate_data.py        
-│   ├── connect_mysql.py        
-│   └── clean_data.py           
+│   ├── generate_data.py
+│   ├── connect_mysql.py
+│   └── clean_data.py
 │
 ├── assets/
-│   └── dashboard_preview.png   
+│   └── dashboard_preview.png
 │
-├── NorthShelf_Dashboard.pbix   
-└── README.md
+├── NorthShelf_Dashboard.pbix
+├── README.md
+└── .gitignore
 
 
 ### Dataset
