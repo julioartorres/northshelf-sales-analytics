@@ -145,4 +145,4 @@ DIVIDE(
 Author
 Julio Torres
 
-Linkedin - GitHub
+www.linkedin.com/in/julioarmtorres - GitHub
